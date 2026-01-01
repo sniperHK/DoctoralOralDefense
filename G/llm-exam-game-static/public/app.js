@@ -356,6 +356,9 @@ els.timerReset.addEventListener("click", () => {
     els.timerValue.textContent = "00:00";
 });
 
+els.randomBtn.addEventListener("click", () => randomQuestion());
+if (els.exportHistoryBtn) els.exportHistoryBtn.addEventListener("click", () => exportHistory());
+
 // Init
 state.provider = localStorage.getItem(STORAGE_KEYS.provider) || "openai";
 els.providerSelect.value = state.provider;
