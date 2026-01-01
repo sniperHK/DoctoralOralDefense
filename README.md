@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DoctoralOralDefense / Qualifying Exam Workspace (ICGLPS)
 
 這個 repo 是一個用 **ICGLPS**（I/C/G/L/P/S）管理的博士班里程碑準備專案（目前以「行社組資格考：研究法」為主要範例）。
@@ -22,4 +23,3 @@
 - 教材/章節 PDF、考古題 PDF、校內表單、截圖、zip 備份
 
 這些內容請放在 `C/` 或 `L/archives/` 對應資料夾內做本機管理即可（各資料夾內有 `README.md` 說明）。
-
