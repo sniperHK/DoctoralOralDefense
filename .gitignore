@@ -1,0 +1,45 @@
+.DS_Store
+**/.DS_Store
+
+# Dependencies / build artifacts
+node_modules/
+**/node_modules/
+
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Local study materials (keep out of GitHub)
+C/規定與行政/**
+!C/規定與行政/
+!C/規定與行政/README.md
+
+C/閱讀材料/**
+!C/閱讀材料/
+!C/閱讀材料/README.md
+
+C/圖片/**
+!C/圖片/
+!C/圖片/README.md
+
+C/博班資格考考古題/**
+!C/博班資格考考古題/
+!C/博班資格考考古題/README.md
+
+L/archives/**
+!L/archives/
+!L/archives/README.md
+
+# Optional: keep bulky binaries out by default
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.zip
