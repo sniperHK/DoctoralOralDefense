@@ -1,0 +1,116 @@
+{
+  "setId": "112-2-research-methods",
+  "questions": [
+    {
+      "id": "req-1",
+      "section": "必選",
+      "points": 5,
+      "title": "原子謬誤（atomistic fallacy）",
+      "noteHeading": "### 1)",
+      "text": "請問何謂「原子謬誤（atomistic fallacy）」，並以實例進行說明（5 分）。",
+      "booklistTopics": ["研究設計、研究問題與假說"],
+      "tags": ["fallacy", "unit-of-analysis"]
+    },
+    {
+      "id": "req-2",
+      "section": "必選",
+      "points": 8,
+      "title": "分析單位（unit of analysis）：研究問題與假說",
+      "noteHeading": "### 2)",
+      "text": "每一個研究中都有其分析單位（unit of analysis），請根據自己的研究興趣，選擇兩種不同的分析單位，分別寫出對應的研究問題與研究假設（8 分）。",
+      "booklistTopics": ["研究設計、研究問題與假說"],
+      "tags": ["unit-of-analysis", "research-question", "hypothesis"]
+    },
+    {
+      "id": "req-3",
+      "section": "必選",
+      "points": 22,
+      "title": "研究設計（5）＋抽樣（17）",
+      "noteHeading": "### 3)",
+      "text": "（承上題）假設您希望針對上述所提的其中一項研究問題進行探討，請問：\n\n(1) 您會選擇何種研究設計（如：橫斷研究、世代研究、實驗研究、趨勢研究…等）？請先簡單描述該研究設計並說明選擇的理由（5 分）。\n\n(2) 若您的研究中涉及抽樣，您會選擇哪種抽樣方式？請針對該抽樣方式之定義（3 分）、優缺點（6 分）及執行步驟（8 分）進行說明。",
+      "booklistTopics": ["研究設計、研究問題與假說", "抽樣設計", "實驗研究"],
+      "tags": ["study-design", "sampling"]
+    },
+    {
+      "id": "req-4",
+      "section": "必選",
+      "points": 4,
+      "title": "系統性文獻回顧：步驟與理由",
+      "noteHeading": "### 4)",
+      "text": "年輕族群的心理健康問題受到重視，有許多人認為在學校進行介入會有幫助。相關單位因此委託您進行研究，了解以學校為場域所進行的心理健康介入是否有效。您提議進行系統性文獻回顧，找出過去有哪些介入，以及它們是否有效。請簡要說明您進行此項系統性文獻回顧的步驟，以及每一個步驟的理由（4 分）。",
+      "booklistTopics": ["文獻回顧與批判閱讀"],
+      "tags": ["systematic-review"]
+    },
+    {
+      "id": "req-5",
+      "section": "必選",
+      "points": 12,
+      "title": "盛行率與相關因素調查：方法比較＋歷史資料",
+      "noteHeading": "### 5)",
+      "text": "臺灣於 112 年開始施行修正後的《菸害防制法》，禁止電子煙，也訂定了對新類型菸草產品（如加熱菸）的規範。您提議進行臺灣當前電子煙、加熱菸，與其它新類型菸草產品的使用盛行率及相關因素調查。請依序：\n\n(1) 提出與說明至少四種調查方式（2 分），並討論其優缺點（4 分）。\n\n(2) 針對這個議題，說明您選擇其中一種或數種調查方式的理由（3 分）。\n\n(3) 最後，您也想了解臺灣過去是否有進行類似的調查，以將其結果和此次調查結果做比較。請問您要如何找到舊調查結果，或是分析舊資料來得到歷史數據（3 分）？",
+      "booklistTopics": ["調查研究", "研究資料庫介紹與次級資料分析"],
+      "tags": ["survey", "secondary-data"]
+    },
+    {
+      "id": "req-6",
+      "section": "必選",
+      "points": 4,
+      "title": "PICO：依摘要設計研究並說明 Outcome 測量",
+      "noteHeading": "### 6)",
+      "text": "介入研究的主要元素包括「PICO（Population/Patient; Intervention; Control/Comparison; Outcome）」。您受命參考下面的文章摘要，自行設計一個同樣主題的研究。請說明您新研究中的 PICO 四大元素為何，以及這四大元素中 Population/Patient、Control/Comparison 與 Intervention 的定義，與 Outcome 的測量方式（4 分）。\n\n【文章摘要】\n目標：鑑於近年網際網路發達且資訊傳播快速，其中也包含誤導資訊之流傳，尤其與健康相關的誤導資訊議題更為重要，其可能對人體產生長期危害。本研究之目的為了解誤導資訊是否會影響吸菸族群對於電子煙之態度。方法：本研究為一隨機分派實驗研究，以網路問卷招募吸菸族群作為參與者，以 2015 年英國公共衛生局（Public Health England）發布之研究報告中所述「電子煙比香菸安全 95%」資訊作為實驗組誤導資訊介入，對照組則提供與電子煙無關之資訊，以網頁的形式呈現內容，以檢測誤導資訊是否會影響台灣吸菸族群對於電子煙之態度，並估計其影響程度。結果：實驗組於誤導資訊介入後，對於電子煙之態度更正向。吸菸族群對於電子煙的態度與是否使用電子煙、教育程度、自覺經濟狀況、自覺健康狀態等因素有關。結論：誤導資訊會造成吸菸者改變對電子煙態度，建議電子煙政策應積極宣導電子煙正確資訊，以降低未來民眾因誤導資訊而造成之負面健康結果。\n\n文章來源：許子濰（2022）誤導資訊介入對電子煙態度之影響：台灣吸菸族群之隨機分派實驗。台灣公共衛生雜誌，41（6），600–610。",
+      "booklistTopics": ["研究設計、研究問題與假說", "測量與信效度", "實驗研究"],
+      "tags": ["pico", "measurement", "experiment"]
+    },
+    {
+      "id": "req-7",
+      "section": "必選",
+      "points": 15,
+      "title": "質性研究：信度/效度（信實度/可信度）與提升策略",
+      "noteHeading": "### 7)",
+      "text": "基於本體論跟認識論的差異，質性研究對於資料的信效度的定義與量性方式有所差異，請定義質性研究所理解的信度跟效度為何？（5 分）與量性研究中的信效度差異為何？（5 分）並請舉一個研究設計的測量為例，討論如何提升質性研究的信度或效度（5 分）。回答請分段，第一二題可以分開或是合併作答，最後一小題請選擇信度或是效度作答即可。",
+      "booklistTopics": ["測量與信效度", "質性研究：概念與目的", "研究倫理與反思"],
+      "tags": ["qualitative", "trustworthiness", "validity"]
+    },
+    {
+      "id": "opt-1",
+      "section": "選考",
+      "points": 15,
+      "title": "改善 one-group pretest-posttest design（類實驗偏誤）",
+      "noteHeading": "### 選 1)",
+      "text": "研究者可以針對研究設計中的不同面向（包括：測量、比較組、介入…等）進行改善，以降低類實驗研究（quasi-experimental study）可能產生的偏誤。假設您欲改善「一組前測與後測的設計（one-group pretest-posttest design）」，您會在既有的研究設計上如何進行調整？請至少提出兩種改善方式並具體說明（15 分）。",
+      "booklistTopics": ["實驗研究"],
+      "tags": ["quasi-experimental", "internal-validity"]
+    },
+    {
+      "id": "opt-2",
+      "section": "選考",
+      "points": 15,
+      "title": "成效評估：logic model（inputs/outputs/outcomes）＋研究設計",
+      "noteHeading": "### 選 2)",
+      "text": "您受託評估某企業提升員工運動量之方案的成效。此方案的內容包括：\n\n- 在公司設置健身房、淋浴間和更衣室。\n- 提供運動指導和健康講座，每月邀請專業教練進行培訓。\n- 舉辦步數挑戰與跑步比賽，提供獎金、禮品卡或額外假期作為獎勵。\n- 提供運動 APP，鼓勵員工記錄和分享運動量。\n- 鼓勵在工作間隙進行身體伸展操，設置提醒系統或由健康大使帶領。\n\n(1) 請參考下面的 logic model 來進行成效評估研究設計。說明評估的 inputs、outputs 與 outcomes 各是什麼，及其理由（6 分）。\n\n(2) 請說明您所選擇的研究設計及其理由（3 分），並概述其優點與限制（3 分），以及如何收集到所需的研究資料（3 分）。\n\n圖片來源：https://www.gov.scot/publications/5-step-approach-evaluation-designing-evaluating-behaviour-change-interventions-summary/pages/7/",
+      "booklistTopics": ["評估研究"],
+      "tags": ["evaluation", "logic-model"]
+    },
+    {
+      "id": "opt-3",
+      "section": "選考",
+      "points": 15,
+      "title": "紮根理論：開放/主軸/主題編碼與使用階段",
+      "noteHeading": "### 選 3)",
+      "text": "紮根理論的原理是用歸納的方式對現象加以分析整理所得到的結果，其中有幾種編碼的方式，分別是開放編碼、主軸編碼跟主題編碼。請解釋這些編碼方式的差異（10 分）。並請以實際研究設計的流程舉例，說明這些編碼策略會在什麼階段被使用及如何使用（5 分）。",
+      "booklistTopics": ["質性資料分析"],
+      "tags": ["grounded-theory", "coding"]
+    },
+    {
+      "id": "opt-4",
+      "section": "選考",
+      "points": 15,
+      "title": "訪談研究倫理：是否通報？研究者可提供哪些協助？",
+      "noteHeading": "### 選 4)",
+      "text": "在執行物質使用者心理健康的訪談研究時，受訪者表示近期因為工作壓力開始恢復使用非法物質。請問作為研究者的您，是否需要通報有關單位？或是做研究者可以提供受訪對象哪些協助？請引用至少兩個倫理觀點進行闡述（各 7.5 分，共 15 分）。",
+      "booklistTopics": ["研究倫理與反思"],
+      "tags": ["ethics", "confidentiality"]
+    }
+  ]
+}
+
