@@ -274,3 +274,25 @@ button.secondary {
   margin: 0 auto;
   padding: 8px 14px 18px;
 }
+
+/* Added for Phase 2 */
+.inline-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.header-row h2 {
+  margin-bottom: 0;
+}
+
+button.small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+}

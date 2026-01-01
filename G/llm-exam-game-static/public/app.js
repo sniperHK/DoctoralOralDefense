@@ -25,7 +25,10 @@ const els = {
     timerValue: document.getElementById("timerValue"),
     timerStart: document.getElementById("timerStart"),
     timerPause: document.getElementById("timerPause"),
-    timerReset: document.getElementById("timerReset")
+    timerPause: document.getElementById("timerPause"),
+    timerReset: document.getElementById("timerReset"),
+    randomBtn: document.getElementById("randomBtn"),
+    exportHistoryBtn: document.getElementById("exportHistoryBtn")
 };
 
 const STORAGE_KEYS = {
@@ -173,6 +176,43 @@ async function refreshQuestions() {
     } catch (e) {
         els.questionSelect.innerHTML = `<option>Error loading questions</option>`;
     }
+}
+}
+
+function randomQuestion() {
+    if (!state.questions.length) return;
+    const idx = Math.floor(Math.random() * state.questions.length);
+    state.selectedQuestionId = state.questions[idx].id;
+    els.questionSelect.value = state.selectedQuestionId;
+
+    // Reset timer
+    state.timer.running = false;
+    state.timer.elapsedMs = 0;
+    if (state.timer.tick) clearInterval(state.timer.tick);
+    els.timerValue.textContent = "00:00";
+
+    renderQuestion();
+    loadDraft();
+    saveLocalDefaults();
+    setStatus(["已隨機選題！"], "ok");
+}
+
+function exportHistory() {
+    const history = safeJsonParse(localStorage.getItem(STORAGE_KEYS.history) || "[]", []);
+    if (!history.length) {
+        alert("尚無紀錄可匯出。");
+        return;
+    }
+    const text = JSON.stringify(history, null, 2);
+    const blob = new Blob([text], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `llm-exam-history-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
 }
 
 function renderQuestion() {

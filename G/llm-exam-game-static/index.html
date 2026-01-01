@@ -67,7 +67,10 @@
 
       <label class="field">
         <div class="label">題目</div>
-        <select id="questionSelect"></select>
+        <div class="inline-actions">
+          <select id="questionSelect" style="flex: 1;"></select>
+          <button id="randomBtn" class="secondary" title="隨機抽選一題">隨機</button>
+        </div>
       </label>
 
       <div class="timer">
@@ -114,7 +117,10 @@
     </section>
 
     <section class="panel">
-      <h2>歷史紀錄（本機）</h2>
+      <div class="header-row">
+        <h2>歷史紀錄（本機）</h2>
+        <button id="exportHistoryBtn" class="secondary small">匯出 JSON</button>
+      </div>
       <div class="history" id="history"></div>
     </section>
   </main>

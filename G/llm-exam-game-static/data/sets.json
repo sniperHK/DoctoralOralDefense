@@ -7,7 +7,22 @@
       "sourcePdf": "C/博班資格考考古題/資格考考古題-研究法(行社組)/112-2 健管所博士班資格考_研究法(行社組).pdf",
       "notesMd": "G/模擬考/112-2_研究法_重點筆記.md",
       "examTimeMinutes": 180
+    },
+    {
+      "id": "health-behavior-history",
+      "title": "歷屆考古題｜健康行為科學",
+      "language": "zh-TW",
+      "sourcePdf": "C/博班資格考考古題/資格考考古題-健康行為",
+      "notesMd": "",
+      "examTimeMinutes": 120
+    },
+    {
+      "id": "research-methods-history",
+      "title": "歷屆考古題｜研究法（進階）",
+      "language": "zh-TW",
+      "sourcePdf": "C/博班資格考考古題/資格考考古題-研究法(行社組)",
+      "notesMd": "",
+      "examTimeMinutes": 180
     }
   ]
 }
-

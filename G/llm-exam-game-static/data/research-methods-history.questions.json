@@ -1,0 +1,37 @@
+{
+    "setId": "research-methods-history",
+    "questions": [
+        {
+            "id": "rm-sample-1",
+            "section": "範例",
+            "points": 25,
+            "title": "實驗設計 vs 準實驗設計",
+            "noteHeading": "",
+            "text": "請比較「隨機對照試驗（RCT）」與「準實驗設計（Quasi-experimental design）」的差異。在無法進行隨機分派的社區介入研究中，你會如何設計以盡量提高內部效度（Internal Validity）？",
+            "booklistTopics": [
+                "Research Design",
+                "Experimental Design"
+            ],
+            "tags": [
+                "RCT",
+                "Quasi-experimental"
+            ]
+        },
+        {
+            "id": "rm-sample-2",
+            "section": "範例",
+            "points": 25,
+            "title": "質性研究方法選擇",
+            "noteHeading": "",
+            "text": "若你想探討「醫事人員在疫情期間的心理壓力與調適歷程」，你會選擇哪一種質性研究方法（如：現象學、紮根理論、民族誌）？請說明選擇該方法的理由，以及預計如何進行資料收集與分析。",
+            "booklistTopics": [
+                "Qualitative Research"
+            ],
+            "tags": [
+                "Qualitative",
+                "Phenomenology",
+                "Grounded Theory"
+            ]
+        }
+    ]
+}

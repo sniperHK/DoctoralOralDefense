@@ -1,0 +1,37 @@
+{
+    "setId": "health-behavior-history",
+    "questions": [
+        {
+            "id": "hb-sample-1",
+            "section": "範例",
+            "points": 25,
+            "title": "健康信念模式 (HBM)",
+            "noteHeading": "",
+            "text": "請解釋健康信念模式（Health Belief Model, HBM）的主要構念，並舉一個公共衛生實例（如疫苗接種、癌症篩檢）說明如何應用此模式來預測或改變行為。",
+            "booklistTopics": [
+                "Health Behavior Theory",
+                "HBM"
+            ],
+            "tags": [
+                "HBM",
+                "Theory"
+            ]
+        },
+        {
+            "id": "hb-sample-2",
+            "section": "範例",
+            "points": 25,
+            "title": "跨理論模式 (TTM)",
+            "noteHeading": "",
+            "text": "請說明跨理論模式（Transtheoretical Model, TTM）的五個改變階段（Stages of Change），並針對「戒菸」行為，建議在「沈思期（Contemplation）」與「準備期（Preparation）」應採取的不同介入策略。",
+            "booklistTopics": [
+                "Health Behavior Theory",
+                "TTM"
+            ],
+            "tags": [
+                "TTM",
+                "Stages of Change"
+            ]
+        }
+    ]
+}
