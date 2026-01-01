@@ -25,7 +25,6 @@ const els = {
     timerValue: document.getElementById("timerValue"),
     timerStart: document.getElementById("timerStart"),
     timerPause: document.getElementById("timerPause"),
-    timerPause: document.getElementById("timerPause"),
     timerReset: document.getElementById("timerReset"),
     randomBtn: document.getElementById("randomBtn"),
     exportHistoryBtn: document.getElementById("exportHistoryBtn")
@@ -177,7 +176,7 @@ async function refreshQuestions() {
         els.questionSelect.innerHTML = `<option>Error loading questions</option>`;
     }
 }
-}
+
 
 function randomQuestion() {
     if (!state.questions.length) return;
